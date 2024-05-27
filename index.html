@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Desain</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jasa Desain</h1> <!-- Tambahkan judul di sini -->
+        <form id="myForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="options">Jasa Desain:</label>
+                        <select id="options" name="options">
+                            <option value="Di pilih">Di pilih</option>
+                            <option value="Desain Feed">Desain Feed</option>
+                            <option value="Desain Poster">Desain Poster</option>
+                            <option value="Desain T-Shirt">Desain T-Shirt</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Tanggal Pemesanan:</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label>Estimasi Pengerjaan:</label>
+                        <div class="radio-option">
+                            <input type="radio" id="2Hari" name="radioOption" value="2 Hari" required>
+                            <label for="2Hari">2 Hari</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="3Hari" name="radioOption" value="3 Hari">
+                            <label for="3Hari">3 Hari</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="4Hari" name="radioOption" value="4 Hari">
+        <label for="4Hari">4 Hari</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="5Hari" name="radioOption" value="5 Hari">
+                            <label for="5Hari">5 Hari</label>
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+        </form>
+        <div id="result"></div>
+    </div>
+   
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
